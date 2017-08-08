@@ -6,7 +6,7 @@ use Closure as closure;
 use statuses\exceptions\alreadyMatchedException;
 use statuses\exceptions\notMatchedException;
 
-class statuses
+class collection implements \agreed\statuses
 {
 	private $matched = [ ];
 

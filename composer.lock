@@ -12,13 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lionar/agreements.git",
-                "reference": "754e6ca015463d4ef08b2aa867afd7054c2f5baa"
+                "reference": "30e5869e7f66283e4ac9609d49d59ce47133334c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lionar/agreements/zipball/754e6ca015463d4ef08b2aa867afd7054c2f5baa",
-                "reference": "754e6ca015463d4ef08b2aa867afd7054c2f5baa",
+                "url": "https://api.github.com/repos/lionar/agreements/zipball/30e5869e7f66283e4ac9609d49d59ce47133334c",
+                "reference": "30e5869e7f66283e4ac9609d49d59ce47133334c",
                 "shasum": ""
+            },
+            "require": {
+                "lionar/support": "*"
             },
             "type": "library",
             "autoload": {
@@ -42,7 +45,50 @@
                 "Agreements",
                 "lionar"
             ],
-            "time": "2017-06-28T20:53:08+00:00"
+            "time": "2017-08-08T20:24:02+00:00"
+        },
+        {
+            "name": "lionar/support",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lionar/support.git",
+                "reference": "1a2920a380247e6833ff7af11ec67cff4384ecfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lionar/support/zipball/1a2920a380247e6833ff7af11ec67cff4384ecfb",
+                "reference": "1a2920a380247e6833ff7af11ec67cff4384ecfb",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": [
+                        "source/accessibility",
+                        "source/exceptions"
+                    ]
+                },
+                "files": [
+                    "source/helpers/text.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aron Wouters",
+                    "email": "lionar@mail.com",
+                    "role": "Developer"
+                }
+            ],
+            "keywords": [
+                "lionar",
+                "support"
+            ],
+            "time": "2017-08-07T14:00:37+00:00"
         }
     ],
     "packages-dev": [],

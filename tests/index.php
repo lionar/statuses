@@ -1,10 +1,10 @@
 <?php
 
-use statuses\statuses;
+use statuses\collection;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$status = new statuses;
+$status = new collection;
 
 $status->matching ( 1, function ( )
 {
